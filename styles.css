@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(135deg, #121212 0%, #1a1a1a 100%);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+#mainTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.sidebar {
+    background-color: #181818;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar input {
+    background-color: #282828;
+    color: white;
+    border: none;
+}
+
+.sidebar input:focus {
+    outline: none;
+}
+
+.album-card {
+    background-color: #181818;
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.album-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.album-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.btn-custom {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #1aa34a;
+}
+
+#searchBtn {
+    background-color: #1DB954;
+    border: none;
+    font-weight: bold;
+}
+
+#searchBtn:hover {
+    background-color: #1aa34a;
+}
+
+input:focus {
+    border-color: #1DB954;
+    box-shadow: 0 0 5px rgba(29, 185, 84, 0.5);
+}
+
+.album-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.track-button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.track-button:hover {
+    background-color: #1aa34a;
+}
+
+.track-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.track-list li {
+    background-color: #181818;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.track-list li:hover {
+    background-color: #202020;
+}
+
+.track-list li button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+}
+
+.track-list li button:hover {
+    background-color: #1aa34a;
+}
